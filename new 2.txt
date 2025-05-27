@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Sharma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ashish Sharma</h1>
+        <p>Web Developer | Java Programmer | UI Designer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m <strong>Ashish Sharma</strong>, a creative and dedicated web developer and Java programmer. I specialize in building responsive websites and Java-based applications. I enjoy learning new technologies and creating user-friendly digital solutions.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>1. Personal Portfolio Website</h3>
+            <p>A fully responsive portfolio website built using HTML, CSS, and JavaScript to showcase my projects and skills. It includes smooth navigation and a clean UI.</p>
+            <ul>
+                <li>Responsive design using Flexbox</li>
+                <li>Smooth scrolling</li>
+                <li>Custom styling and interactivity</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>2. Java Quiz Application</h3>
+            <p>A desktop application developed in Java using Swing for the user interface and MySQL as the database. It allows users to take quizzes, and admins to manage questions.</p>
+            <ul>
+                <li>User and Admin login system</li>
+                <li>Dynamic question loading using JDBC</li>
+                <li>Scoring and result summary after submission</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>3. Task Manager Web App</h3>
+            <p>A task tracking web application built with HTML, CSS, and JavaScript. Users can add, edit, delete, and mark tasks as completed. Data is saved using local storage.</p>
+            <ul>
+                <li>Add/Edit/Delete tasks</li>
+                <li>Local storage integration</li>
+                <li>Dark mode toggle</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>4. E-Commerce Product Page</h3>
+            <p>An interactive and responsive product page for an online store. Built with HTML/CSS and vanilla JavaScript for dynamic cart updates.</p>
+            <ul>
+                <li>Responsive layout</li>
+                <li>Interactive image gallery</li>
+                <li>Cart functionality using JS</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>5. Weather App</h3>
+            <p>A real-time weather application using the OpenWeatherMap API. Users can search any city and get live weather data with temperature and humidity.</p>
+            <ul>
+                <li>API integration</li>
+                <li>Responsive layout</li>
+                <li>Search by city name</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> ashish.sharma@example.com</p>
+        <p><strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/ashishsharma</a></p>
+        <p><strong>GitHub:</strong> <a href="#" target="_blank">github.com/ashishsharma</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ashish Sharma. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
